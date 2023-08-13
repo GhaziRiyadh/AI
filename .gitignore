@@ -73,6 +73,14 @@ cover/
 UserApp/model/cats_and_dogs_small
 UserApp/model/dogs-vs-cats
 
+# svelte 
+Front-End/Ecommerce/node_modules
+Front-End/Ecommerce/public/build/
+Front-End/Ecommerce/.svelte-kit/
+Front-End/Ecommerce/.svelte-kit/assets/
+Front-End/Ecommerce/package-lock.json
+
+
 # Translations
 *.mo
 
