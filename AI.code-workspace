@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.envFile": "../../.env",
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"askForPassword": true,
+				"driver": "MySQL",
+				"name": "Root",
+				"username": "Root",
+				"database": "e_commerce"
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python: Django",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}\\manage.py",
+				"args": [
+					"runserver"
+				],
+				"django": true,
+				"justMyCode": true
+			}
+		]
+	}
+}
