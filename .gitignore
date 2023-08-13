@@ -70,6 +70,8 @@ coverage.xml
 .pytest_cache/
 cover/
 
+UserApp/model/cats_and_dogs_small
+UserApp/model/dogs-vs-cats
 
 # svelte 
 Front-End/Ecommerce/node_modules
